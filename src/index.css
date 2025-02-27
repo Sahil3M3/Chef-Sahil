@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: whitesmoke;
+
+}
+.navBar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   height: 80px;
+   padding: 0.2rem;
+   gap:11px;
+    font-family: Inter, sans-serif;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.nav-logo{
+    width: 50px;
+    padding-right: 0.5rem;
+    
+}
+.navBar >h1{
+    font-weight:400;
+    
+}
+main{
+    padding: 30px 30px 10px ;
+
+}
+.my-form{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    height: 38px;
+    /* align-items: center; */
+
+}
+
+.my-form >input{
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    padding: 9px;
+flex-grow: 1;
+min-width: 150px;
+max-width: 400px;
+}
+.my-form > button{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+    width: 150px;
+    font-size: 0.8.7rem;
+    font-weight: 400px;
+}
+
+.my-form button::before{
+    content: "+";
+    margin-right: 5px;
+}
