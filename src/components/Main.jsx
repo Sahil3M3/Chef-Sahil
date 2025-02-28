@@ -4,7 +4,7 @@ import IngredientList from './IngredientList';
 import {getRecipeFromMistral} from "../ai"
 
 const Main = () => {
-const [ingredients,setIngredients]=useState(["Chinken","Egg","Rice","Milk"])
+const [ingredients,setIngredients]=useState([])
 const [recipeShown,setRecipeShown]=useState(false);
 
 const submitHandler=(e)=>{

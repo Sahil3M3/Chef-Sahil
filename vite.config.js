@@ -6,4 +6,3 @@ export default defineConfig({
   plugins: [react()],
 })
 
-C:\Users\Shric\OneDrive\Desktop\Projects\React Facts\first-react\package.json
